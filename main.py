@@ -1,6 +1,7 @@
 from storage import load_books, save_books
 from services import Library
 from models import Book
+
 library = Library()
 library.books = load_books("data/books.json")
 while True:
